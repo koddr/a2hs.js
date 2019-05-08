@@ -1,0 +1,49 @@
+{
+  "name": "a2hs.js",
+  "version": "0.1.1",
+  "description": "A useful modern JavaScript solution for adding a progressive web application (PWA) to the home screen of your mobile iOS device.",
+  "main": "a2hs.min.js",
+  "private": true,
+  "browserslist": [
+    "last 4 iOS major versions"
+  ],
+  "scripts": {
+    "build": "rollup --config rollup.config.js --compact",
+    "watch": "rollup --config rollup.config.js --watch --compact"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/koddr/a2hs.js.git"
+  },
+  "keywords": [
+    "add to home",
+    "add website to home screen",
+    "add pwa to home screen",
+    "install to home screen",
+    "install pwa",
+    "ios progressive web app",
+    "ios pwa"
+  ],
+  "author": "Vic Shóstak <truewebartisans@gmail.com> (https://1wa.co)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/koddr/a2hs.js/issues",
+    "email": "truewebartisans@gmail.com"
+  },
+  "homepage": "https://koddr.github.io/a2hs.js/",
+  "devDependencies": {
+    "@ampproject/rollup-plugin-closure-compiler": "^0.9.0",
+    "@babel/core": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "babel-loader": "^8.0.5",
+    "core-js": "^3.0.1",
+    "eslint": "^5.16.0",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "rollup": "^1.11.3",
+    "rollup-plugin-babel": "^4.3.2"
+  }
+}
