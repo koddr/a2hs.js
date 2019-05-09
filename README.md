@@ -10,11 +10,36 @@
 </p>
 
 <p align="center">
-    A useful modern JavaScript solution for adding (install) a <b>progressive web application</b> (PWA) to the <b>Home screen</b> of your <b>iOS</b> mobile device. Designed for the <b>latest 4 major versions</b> of iOS (iOS Safari 9.x-12.2+).
+    A useful modern JavaScript solution for adding (install) a <b>progressive web application</b> (PWA) to the <b>Home screen</b> of your <b>iOS</b> mobile device. Designed for the <b>latest 4 major versions</b> of iOS Safari 9.x-12.2+.
 </p>
 
 ## Install
 
 ```bash
 $ npm install --save a2hs.js
+```
+
+## Usage
+
+There is two way to use `a2hs.js` in your JS bundle:
+
+```js
+/**
+ * Simple import
+ */
+
+// Import a2hs.js
+import "a2hs" from "a2hs.js"
+
+// Init a2hs.js
+a2hs.init()
+
+/**
+ * Code splitting import (recommended)
+ */
+
+// Import and init a2hs.js
+import("a2hs.js").then(a2hs => {
+    a2hs.init()
+}
 ```
