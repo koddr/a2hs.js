@@ -9,7 +9,9 @@
     <img src="https://img.shields.io/badge/license-MIT-yellow.svg?style=flat" alt="license"/>
 </p>
 
-A useful modern JavaScript solution for adding (install) a **progressive web application** (PWA) to the **Home screen** of your **iOS** mobile device. Designed for the **latest 4 major versions** of iOS (iOS Safari 9.x-12.2+).
+<p align="center">
+    A useful modern JavaScript solution for adding (install) a <b>progressive web application</b> (PWA) to the <b>Home screen</b> of your <b>iOS</b> mobile device. Designed for the <b>latest 4 major versions</b> of iOS (iOS Safari 9.x-12.2+).
+</p>
 
 ## Install
 
