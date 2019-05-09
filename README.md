@@ -3,7 +3,7 @@
 
 <p align="center">
     <img src="https://badge.fury.io/js/a2hs.js.svg" alt="npm version"/>
-    <img src="https://img.shields.io/badge/GZip_size-153_Bytes-green.svg?style=flat" alt="gzip"/>
+    <img src="https://img.shields.io/badge/GZip_size-689_Bytes-green.svg?style=flat" alt="gzip"/>
     <img src="https://data.jsdelivr.com/v1/package/npm/a2hs.js/badge?style=rounded" alt="jsDelivr download"/>
     <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat" alt="code style: prettier"/>
     <img src="https://img.shields.io/badge/license-MIT-yellow.svg?style=flat" alt="license"/>
@@ -29,17 +29,22 @@ There is two way to use `a2hs.js` in your JS bundle:
  */
 
 // Import a2hs.js
-import "a2hs" from "a2hs.js"
+import AddToHomeScreen from "a2hs.js"
 
 // Init a2hs.js
-a2hs.init()
+new AddToHomeScreen({
+    fontFamily: "Tahoma, sans-serif",
+    backgroundColor: "red",
+    color: "white",
+    padding: "5px"
+}).init()
 
 /**
  * Code splitting import (recommended)
  */
 
 // Import and init a2hs.js
-import("a2hs.js").then(a2hs => {
-    a2hs.init()
+import("a2hs.js").then(AddToHomeScreen => {
+    AddToHomeScreen().init()
 }
 ```

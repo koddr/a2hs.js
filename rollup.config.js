@@ -9,7 +9,7 @@ export default [
   {
     input: './src/a2hs.js',
     output: {
-      name: 'a2hsBundle',
+      name: 'a2hs',
       file: './a2hs.min.js',
       format: 'iife'
     },

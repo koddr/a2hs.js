@@ -1,6 +1,6 @@
 {
   "name": "a2hs.js",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "description": "A useful modern JavaScript solution for adding (install) a progressive web application (PWA) to the Home screen of your iOS mobile device.",
   "main": "a2hs.min.js",
   "browserslist": [
