@@ -1,7 +1,6 @@
-.idea/
-.github/
 .editorconfig
 .gitignore
 .prettierignore
-goodshare.min.js
+**/.cache
+**/dist
 *.md

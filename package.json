@@ -1,14 +1,14 @@
 {
   "name": "a2hs.js",
-  "version": "0.3.4",
+  "version": "0.4.0",
   "description": "A useful modern JavaScript solution for adding (install) a progressive web application (PWA) to the Home screen of your iOS mobile device.",
-  "main": "a2hs.min.js",
   "browserslist": [
     "last 4 iOS major versions"
   ],
   "scripts": {
-    "build": "rollup --config rollup.config.js --compact",
-    "watch": "rollup --config rollup.config.js --watch --compact"
+    "start": "parcel serve --cache-dir test/demo/.cache -d test/demo/dist test/demo/index.html --open",
+    "build": "parcel build ./index.js",
+    "watch": "parcel watch ./index.js"
   },
   "repository": {
     "type": "git",
@@ -31,18 +31,31 @@
   },
   "homepage": "https://koddr.github.io/a2hs.js/",
   "devDependencies": {
-    "@ampproject/rollup-plugin-closure-compiler": "^0.9.0",
-    "@babel/core": "^7.4.4",
-    "@babel/preset-env": "^7.4.4",
-    "babel-loader": "^8.0.5",
-    "core-js": "^3.0.1",
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-es5": "^1.3.1",
     "eslint-plugin-import": "^2.17.2",
+    "eslint-plugin-import-helpers": "^0.1.4",
+    "eslint-plugin-jest": "^22.5.1",
     "eslint-plugin-node": "^9.0.1",
+    "eslint-plugin-prefer-let": "^1.0.1",
     "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-security": "^1.4.0",
     "eslint-plugin-standard": "^4.0.0",
-    "rollup": "^1.11.3",
-    "rollup-plugin-babel": "^4.3.2"
+    "parcel-bundler": "^1.12.3"
+  },
+  "eslintConfig": {
+    "rules": {
+      "node/no-unpublished-require": "off",
+      "es5/no-es6-static-methods": "off",
+      "node/no-missing-require": "off",
+      "func-style": "off"
+    },
+    "parserOptions": {
+      "ecmaVersion": 5,
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true
+      }
+    }
   }
 }
