@@ -35,4 +35,13 @@ new AddToHomeScreen({
     color: "white"
 });
 ```
-<img src="https://user-images.githubusercontent.com/3104648/28352004-a055292c-6c4b-11e7-9c6b-a94cdc2a5458.png" alt="PWA logo"/>
+<table border="0">
+ <tr border="0">
+   <td width="300px" border="0">
+     <img width="100%" src="https://user-images.githubusercontent.com/11155743/57539303-e2bc1400-7352-11e9-951c-07bb63b4cb61.gif" alt="demo"/>
+   </td>
+   <td border="0">
+     <img src="https://user-images.githubusercontent.com/3104648/28352004-a055292c-6c4b-11e7-9c6b-a94cdc2a5458.png" alt="PWA logo"/>
+   </td>
+ </tr>
+</table>
