@@ -17,9 +17,7 @@ export default [
       babel({
         exclude: 'node_modules/**'
       }),
-      compiler({
-        compilation_level: 'ADVANCED'
-      })
+      compiler()
     ]
   }
 ]
