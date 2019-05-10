@@ -10,7 +10,9 @@
   <img src="https://img.shields.io/bundlephobia/min/a2hs.js.svg?style=flat" alt="bundle size"/>
   <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat" alt="code style: prettier"/>
   <img src="https://img.shields.io/badge/license-MIT-yellow.svg?style=flat" alt="license"/>
-  <img src="https://img.shields.io/twitter/url/https/github.com/koddr/a2hs.js.svg" alt="twit link"/>
+  <a href="https://twitter.com/intent/tweet?text=Wow%20%F0%9F%91%8D%20Useful%20%23js%20solution%20for%20add%20progressive%20web%20application%20%23PWA%20to%20Home%20Screen%20on%20%23iOS:%20&url=https%3A%2F%2Fgithub.com%2Fkoddr%2Fa2hs.js" target="_blank">
+    <img src="https://img.shields.io/twitter/url/https/github.com/koddr/a2hs.js.svg" alt="twit link"/>
+  </a>
 </p>
 
 <p align="center">
