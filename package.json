@@ -54,7 +54,7 @@
     "parserOptions": {
       "ecmaVersion": 5,
       "ecmaFeatures": {
-        "experimentalObjectRestSpread": true
+        "experimentalObjectRestSpread": "on"
       }
     }
   }
