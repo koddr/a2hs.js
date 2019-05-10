@@ -3,7 +3,7 @@
  * Copyright (c) 2019 True web artisans https://1wa.co
  * http://opensource.org/licenses/MIT The MIT License (MIT)
  *
- * a2hs.js v0.4.0 at 10/05/2019
+ * a2hs.js v0.4.1 at 10/05/2019
  *
  * Add to Home Screen
  *
@@ -17,10 +17,10 @@
  * @example
  * import AddToHomeScreen from "a2hs.js";
  * new AddToHomeScreen({
+ *  brandName: "Demo",
  *  fontFamily: "Tahoma, sans-serif",
  *  backgroundColor: "red",
- *  color: "white",
- *  padding: "5px"
+ *  color: "white"
  * });
  */
 var AddToHomeScreen = function(settings = {}) {
@@ -36,8 +36,9 @@ var AddToHomeScreen = function(settings = {}) {
   // Content styles
   var fontFamily = settings.fontFamily || "-apple-system, sans-serif";
   var color = settings.color || "#5d5d5d";
-  var fontSize = settings.fontSize || "1rem";
+  var fontSize = settings.fontSize || "0.9rem";
   // Content
+  var brandName = settings.brandName || "";
   var logoImage =
     settings.logoImage ||
     `<svg enable-background="new 0 0 1952.00 734.93" height="25" viewBox="0 0 1952 734.93" width="70" xmlns="http://www.w3.org/2000/svg">
@@ -49,7 +50,7 @@ var AddToHomeScreen = function(settings = {}) {
       </svg>`;
   var htmlContent =
     settings.htmlContent ||
-    "Install web app on your iOS device: Tap share and Add to homescreen ↓";
+    `Install <strong>${brandName} web app</strong> on your iOS device: tap share and <strong>Add to Home Screen</strong> ↓`;
   // Define iOS User-Agent variable
   var iOS = /iphone|ipad|ipod/.test(window.navigator.userAgent.toLowerCase());
   // Define standalone mode variable
