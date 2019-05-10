@@ -29,10 +29,10 @@ import AddToHomeScreen from "a2hs.js";
 
 // Init a2hs.js
 new AddToHomeScreen({
+    brandName: "Demo",
     fontFamily: "Tahoma, sans-serif",
     backgroundColor: "red",
-    color: "white",
-    padding: "5px"
+    color: "white"
 });
 ```
 <img src="https://user-images.githubusercontent.com/3104648/28352004-a055292c-6c4b-11e7-9c6b-a94cdc2a5458.png" alt="PWA logo"/>
