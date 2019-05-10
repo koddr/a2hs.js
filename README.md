@@ -39,6 +39,8 @@ new AddToHomeScreen({
     color: "white"
 });
 ```
+## Demo
+
 <table border="0">
  <tr border="0">
    <td width="300px" border="0">
