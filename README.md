@@ -73,6 +73,7 @@ new AddToHomeScreen({
        <li>Opened web site, as a progressive web application (PWA);</li>
        <li>Clicked on container on web site;</li>
      </ul>
+     <p><em>Go to private mode in iOS Safari and open <a href="https://1wa.co" target="_blank">True web artisans website</a>.</em></p>
    </td>
  </tr>
 </table>
