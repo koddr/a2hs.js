@@ -3,7 +3,7 @@
  * Copyright (c) 2019 True web artisans https://1wa.co
  * http://opensource.org/licenses/MIT The MIT License (MIT)
  *
- * a2hs.js v0.3.0 at 10/05/2019
+ * a2hs.js v0.3.4 at 10/05/2019
  *
  * Add to Home Screen
  *
@@ -14,19 +14,20 @@
 
 'use strict'
 
-export default class AddToHomeScreen {
-  constructor (...settings) {
+class AddToHomeScreen {
+  constructor (settings = {}) {
     // Container styles
-    this.backgroundColor = settings.backgroundColor || '#fafafa'
+    this.backgroundColor = settings.backgroundColor || '#f9f9f9'
     this.padding = settings.padding || '10px'
-    this.position = settings.position || 'absolute'
     this.positionRight = settings.positionRight || 0
     this.positionBottom = settings.positionBottom || 0
     this.positionLeft = settings.positionLeft || 0
+    this.shadowColor = settings.shadowColor || '#e9e9e9'
+    this.shadowSize = settings.shadowSize || '10px'
     this.width = settings.width || '100%'
     // Content styles
     this.fontFamily = settings.fontFamily || '-apple-system, sans-serif'
-    this.color = settings.color || '#3d3d3d'
+    this.color = settings.color || '#5d5d5d'
     this.fontSize = settings.fontSize || '1rem'
     // Content
     this.logoImage =
@@ -40,7 +41,7 @@ export default class AddToHomeScreen {
       </svg>`
     this.htmlContent =
       settings.htmlContent ||
-      'Install webapp on your iOS device: Tap share and Add to homescreen ↓'
+      'Install web app on your iOS device: Tap share and Add to homescreen ↓'
   }
 
   /**
@@ -64,13 +65,14 @@ export default class AddToHomeScreen {
       // Create styles
       style.innerHTML = `
       .a2hs__container {
-        box-sizing: border-box;
         display: flex;
         align-items: center;
         justify-content: center;
+        position: fixed;
+        box-sizing: border-box;
+        box-shadow: ${this.shadowColor} 0 0 ${this.shadowSize};
         background-color: ${this.backgroundColor};
         padding: ${this.padding};
-        position: ${this.position};
         right: ${this.positionRight};
         bottom: ${this.positionBottom};
         left: ${this.positionLeft};
@@ -107,3 +109,5 @@ export default class AddToHomeScreen {
     document.querySelector('.a2hs__container').remove()
   }
 }
+
+export default AddToHomeScreen
