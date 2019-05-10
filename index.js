@@ -3,7 +3,7 @@
  * Copyright (c) 2019 True web artisans https://1wa.co
  * http://opensource.org/licenses/MIT The MIT License (MIT)
  *
- * a2hs.js v0.4.1 at 10/05/2019
+ * a2hs.js v0.4.2 at 10/05/2019
  *
  * Add to Home Screen
  *
@@ -27,12 +27,8 @@ var AddToHomeScreen = function(settings = {}) {
   // Container styles
   var backgroundColor = settings.backgroundColor || "#f9f9f9";
   var padding = settings.padding || "10px";
-  var positionRight = settings.positionRight || 0;
-  var positionBottom = settings.positionBottom || 0;
-  var positionLeft = settings.positionLeft || 0;
   var shadowColor = settings.shadowColor || "#e9e9e9";
   var shadowSize = settings.shadowSize || "10px";
-  var width = settings.width || "100%";
   // Content styles
   var fontFamily = settings.fontFamily || "-apple-system, sans-serif";
   var color = settings.color || "#5d5d5d";
@@ -73,10 +69,10 @@ var AddToHomeScreen = function(settings = {}) {
         box-shadow: ${shadowColor} 0 0 ${shadowSize};
         background-color: ${backgroundColor};
         padding: ${padding};
-        right: ${positionRight};
-        bottom: ${positionBottom};
-        left: ${positionLeft};
-        width: ${width};
+        width: 100%;
+        bottom: 0;
+        right: 0;
+        left: 0;
       }
       .a2hs__container .a2hs__logo {
         padding: ${padding};
