@@ -1,5 +1,5 @@
 <h1 align="center">📲 a2hs.js</h1>
-<p align="center"><i>Add progressive web application (PWA) to Home Screen on iOS</i></p>
+<h4 align="center"><i>Add progressive web application (PWA) to Home Screen on iOS</i></h4>
 
 <p align="center">
   <img width="640px" src="https://user-images.githubusercontent.com/11155743/57543776-fd47ba80-735d-11e9-8c7d-07b0f498b627.jpg" alt="iPhone X mockup a2hs.js"/>
