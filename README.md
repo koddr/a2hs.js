@@ -39,6 +39,9 @@ new AddToHomeScreen({
     color: "white"
 });
 ```
+
+<img src="https://user-images.githubusercontent.com/11155743/57544456-0c2f6c80-7360-11e9-96ec-a4ee59d5bbac.jpg" alt="example"/>
+
 ## Demo
 
 <table border="0">
