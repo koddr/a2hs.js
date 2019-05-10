@@ -25,8 +25,6 @@ $ npm install --save a2hs.js
 
 ## Usage
 
-There is two way to use `a2hs.js` in your JS bundle:
-
 ```js
 // Import a2hs.js
 import AddToHomeScreen from "a2hs.js";
