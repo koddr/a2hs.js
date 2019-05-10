@@ -1,5 +1,7 @@
 var AddToHomeScreen = require("../../");
 
 new AddToHomeScreen({
-  color: "red"
+  fontFamily: "Tahoma, sans-serif",
+  backgroundColor: "red",
+  color: "white"
 });
