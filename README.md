@@ -65,7 +65,14 @@ new AddToHomeScreen({
      <img width="100%" src="https://user-images.githubusercontent.com/11155743/57539303-e2bc1400-7352-11e9-951c-07bb63b4cb61.gif" alt="demo"/>
    </td>
    <td border="0">
-     <img src="https://user-images.githubusercontent.com/3104648/28352004-a055292c-6c4b-11e7-9c6b-a94cdc2a5458.png" alt="PWA logo"/>
+     <p>
+       <img src="https://user-images.githubusercontent.com/3104648/28352004-a055292c-6c4b-11e7-9c6b-a94cdc2a5458.png" alt="PWA logo"/>
+     </p>
+     <p>The content container, by default, <strong>attached to bottom</strong> of iOS device screen. Used property <code>position: fixed</code>. The container will not be displayed if user:</p>
+     <ul>
+       <li>Opened web site, as a progressive web application (PWA);</li>
+       <li>Clicked on container on web site;</li>
+     </ul>
    </td>
  </tr>
 </table>
