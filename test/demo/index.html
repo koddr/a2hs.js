@@ -3,9 +3,55 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>a2hs.js demo</title>
+    <title>Demo a2hs.js</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(to top left, #9198e5, #e66465);
+        color: white;
+      }
+      h1,
+      .wrapper {
+        font-weight: lighter;
+      }
+      .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        box-sizing: border-box;
+        font-family: -apple-system, sans-serif;
+        width: 100%;
+        height: 100%;
+      }
+      .wrapper .item {
+        max-width: 70%;
+      }
+    </style>
   </head>
   <body>
+    <div class="wrapper">
+      <div class="item">
+        <h1>Demo a2hs.js</h1>
+        <p>
+          A useful modern JavaScript solution for adding (install) a progressive
+          web application (PWA) to the Home screen of your iOS mobile device.
+        </p>
+        <p>Designed for the latest 4 major versions of iOS Safari 9.x-12.2+.</p>
+        <p>
+          <a
+            class="github-button"
+            href="https://github.com/koddr/a2hs.js"
+            data-size="large"
+            data-show-count="true"
+            aria-label="Star koddr/a2hs.js on GitHub"
+          >
+            Star
+          </a>
+        </p>
+      </div>
+    </div>
     <script defer src="./index.js"></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
   </body>
 </html>
