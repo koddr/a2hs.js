@@ -70,10 +70,10 @@ new AddToHomeScreen({
      </p>
      <p>The content container, by default, <strong>attached to bottom</strong> of iOS device screen. Used property <code>position: fixed</code>. The container will not be displayed if user:</p>
      <ul>
-       <li>Opened web site, as a progressive web application (PWA);</li>
-       <li>Clicked on container on web site;</li>
+       <li>Opened website, as a progressive web application (PWA);</li>
+       <li>Clicked on content container in website (used <code>localStorage</code>);</li>
      </ul>
-     <p><em>Go to private mode in iOS Safari and open <a href="https://1wa.co" target="_blank">True web artisans website</a>.</em></p>
+     <p>> <em>Go to private mode in iOS Safari and open <a href="https://1wa.co" target="_blank">True web artisans</a> website.</em></p>
    </td>
  </tr>
 </table>
