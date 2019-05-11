@@ -28,15 +28,25 @@ foo@bar:~$ npm install --save a2hs.js
 ## Usage
 
 ```js
-// Import a2hs.js
+/**
+ * Import a2hs.js
+ */
 import AddToHomeScreen from "a2hs.js";
 
-// Init a2hs.js
+/**
+ * Simple (with default config) init
+ */
+new AddToHomeScreen();
+
+/**
+ * Advanced (with your config) init
+ */
 new AddToHomeScreen({
     brandName: "Demo",
     fontFamily: "Tahoma, sans-serif",
     backgroundColor: "red",
-    color: "white"
+    color: "white",
+    // ... see full list of config options below
 });
 ```
 
