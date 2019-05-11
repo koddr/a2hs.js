@@ -91,6 +91,32 @@ new AddToHomeScreen({
  </tr>
 </table>
 
+## Animation
+
+```css
+/**
+ * Add slide animation when loading a2hs.js container
+ * Params: 
+ *  animation speed (example: 0.7s)
+ *  0% transform (example: translateY 240px)
+ */
+
+.a2hs__container {
+  animation: slideUp 0.7s ease;
+}
+
+@keyframes slideUp {
+  0% {
+    opacity: 0;
+    transform: translateY(240px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+```
+
 ## Size limit report
 
 ```console
