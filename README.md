@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-    A useful modern JavaScript solution for adding (install) a <b>progressive web application</b> (PWA) to the <b>Home screen</b> of your <b>iOS</b> mobile device. Designed for the <b>latest 4 major versions</b> of iOS Safari 9.x-12.2+.
+    A useful modern JavaScript solution that helps your website users to add (install) a <b>progressive web application</b> (PWA) to the <b>Home screen</b> of their mobile <b>iOS</b> device. Designed for the <b>latest 4 major versions</b> of iOS Safari 9.x-12.2+.
 </p>
 
 ## Install
