@@ -21,8 +21,8 @@
 
 ## Install
 
-```bash
-$ npm install --save a2hs.js
+```console
+foo@bar:~$ npm install --save a2hs.js
 ```
 
 ## Usage
@@ -80,6 +80,22 @@ new AddToHomeScreen({
    </td>
  </tr>
 </table>
+
+## Size limit report
+
+```console
+foo@bar:~$ npm run size
+
+  dist/index.js.map    5.69 KB      6ms
+  dist/index.js        3.72 KB    293ms
+
+  Time limit:   50 ms
+  Package size: 1.29 KB with all dependencies, minified and gzipped
+  Loading time: 26 ms   on slow 3G
+  Running time: 23 ms   on Snapdragon 410
+  Total time:   48 ms
+```
+_Thanks to Andrey Sitnik [@ai/size-limit](https://github.com/ai/size-limit)._
 
 ## License
 
