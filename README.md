@@ -85,11 +85,30 @@ new AddToHomeScreen({
        <li>If user opened website, as a progressive web app (PWA);</li>
        <li>If user clicked once on content container (used <code>localStorage</code> for save state);</li>
      </ul>
-     <h3>Live demo</h3>
-     <p>Go to private mode in iOS Safari and open <a href="https://1wa.co" target="_blank">True web artisans</a> website.</p>
    </td>
  </tr>
 </table>
+
+### Demo on `localhost`
+
+```console
+foo@bar:~$ git clone https://github.com/koddr/a2hs.js.git && cd a2hs.js
+foo@bar:a2hs.js$ npm install
+foo@bar:a2hs.js$ npm start
+
+  Server running at http://localhost:1234 
+  ✨  Built in 18ms.
+```
+
+**🖥 Desktop Google Chrome:**
+
+1. Then, go to `Developer Tools` on opened page `http://localhost:1234`;
+2. Switch to `Device toolbar` and choose `iPhone` in `Emulated Devices` select;
+3. **↺ Refresh page**;
+
+### Live demo
+
+Go to `private mode` on your iOS Safari and open [True web artisans](https://1wa.co/) website.
 
 ## Animation
 
