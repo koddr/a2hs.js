@@ -70,12 +70,13 @@ new AddToHomeScreen({
      <p>
        <img src="https://user-images.githubusercontent.com/3104648/28352004-a055292c-6c4b-11e7-9c6b-a94cdc2a5458.png" alt="PWA logo"/>
      </p>
-     <p>The content container, by default, <strong>attached to bottom</strong> of iOS device screen. Used property <code>position: fixed</code>. The container will not be displayed if user:</p>
+     <p>The content container, by default, <strong>attached to bottom</strong> of iOS device screen (used CSS property <code>position: fixed</code>). The container will not be displayed:</p>
      <ul>
-       <li>Opened website, as a progressive web application (PWA);</li>
-       <li>Clicked on content container in website (used <code>localStorage</code>);</li>
+       <li>If user opened website, as a progressive web app (PWA);</li>
+       <li>If user clicked once on content container (used <code>localStorage</code> for save state);</li>
      </ul>
-     <p>> <em>Go to private mode in iOS Safari and open <a href="https://1wa.co" target="_blank">True web artisans</a> website.</em></p>
+     <h3>Live demo</h3>
+     <p>Go to private mode in iOS Safari and open <a href="https://1wa.co" target="_blank">True web artisans</a> website.</p>
    </td>
  </tr>
 </table>
