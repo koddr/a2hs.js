@@ -1,5 +1,11 @@
+/**
+ * Require a2hs.js
+ */
 var AddToHomeScreen = require("../../");
 
-new AddToHomeScreen({
+/**
+ * Advanced (with your config) init
+ */
+AddToHomeScreen({
   brandName: "Demo"
 });

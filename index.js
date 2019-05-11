@@ -3,7 +3,7 @@
  * Copyright (c) 2019 True web artisans https://1wa.co
  * http://opensource.org/licenses/MIT The MIT License (MIT)
  *
- * a2hs.js v0.4.3 at 11/05/2019
+ * a2hs.js v0.4.4 at 11/05/2019
  *
  * Add to Home Screen
  *
@@ -100,6 +100,8 @@ var AddToHomeScreen = function(settings = {}) {
     document.head.appendChild(style);
     document.body.appendChild(div);
   }
+
+  return AddToHomeScreen;
 };
 
 module.exports = AddToHomeScreen;
