@@ -8,7 +8,8 @@
   "scripts": {
     "start": "parcel serve --cache-dir test/demo/.cache -d test/demo/dist test/demo/index.html --open",
     "build": "parcel build ./index.js",
-    "watch": "parcel watch ./index.js"
+    "watch": "parcel watch ./index.js",
+    "size": "npm run build && size-limit"
   },
   "repository": {
     "type": "git",
@@ -29,7 +30,7 @@
     "url": "https://github.com/koddr/a2hs.js/issues",
     "email": "truewebartisans@gmail.com"
   },
-  "homepage": "https://koddr.github.io/a2hs.js/",
+  "homepage": "https://github.io/koddr/a2hs.js",
   "devDependencies": {
     "eslint": "^5.16.0",
     "eslint-config-standard": "^12.0.0",
@@ -57,5 +58,11 @@
         "experimentalObjectRestSpread": "on"
       }
     }
-  }
+  },
+  "size-limit": [
+    {
+      "path": "index.js",
+      "limit": "50 ms"
+    }
+  ]
 }
