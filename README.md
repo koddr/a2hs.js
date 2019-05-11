@@ -95,10 +95,11 @@ new AddToHomeScreen({
 
 ```css
 /**
- * Add slide animation when loading a2hs.js container
+ * Add slide animation when loading a2hs.js container:
+ * slideUp, slideDown, slideLeft, slideRight
+ *
  * Params: 
  *  animation speed (example: 0.7s)
- *  0% transform (example: translateY 240px)
  */
 
 .a2hs__container {
@@ -113,6 +114,39 @@ new AddToHomeScreen({
   100% {
     opacity: 1;
     transform: translateY(0);
+  }
+}
+
+@keyframes slideDown {
+  0% {
+    opacity: 0;
+    transform: translateY(-240px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(240px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideRight {
+  0% {
+    opacity: 0;
+    transform: translateX(-240px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(0);
   }
 }
 ```
