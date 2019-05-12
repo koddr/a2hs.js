@@ -187,6 +187,16 @@ foo@bar:~$ npm run size
 ```
 _Thanks to Andrey Sitnik [@ai/size-limit](https://github.com/ai/size-limit)._
 
+## Author & maintainers
+
+Development and maintenance engaged by [Vic Shóstak](https://github.com/koddr) (aka Koddr).
+
+If you want to say «thank you» or/and support active development `a2hs.js` — become a Patron!
+
+<a href="https://www.patreon.com/bePatron?u=20124951">
+  <img width="200px" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" alt="Become a Patron!"/>
+</a>
+
 ## License
 
 MIT
