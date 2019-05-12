@@ -19,6 +19,12 @@
     A useful modern JavaScript solution that helps your website users to add (install) a <b>progressive web application</b> (PWA) to the <b>Home Screen</b> of their mobile <b>iOS</b> devices. Designed for the <b>latest 4 major versions</b> of iOS Safari 9.x-12.2+.
 </p>
 
+## The Why?
+
+As you probably know, iOS Safari doesn't have a built-in pop-up window with a suggestion to install a progressive web app on an iPhone/iPad (like Google Chrome). The `a2hs.js` project easily solves this problem!
+
+Also, it's **lightweight**, **production-ready**, **zero-configuration**, has **no dependencies** and **perfectly works** with all of popular JavaScript frontend frameworks.
+
 ## Install
 
 ```console
