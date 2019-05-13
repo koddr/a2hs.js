@@ -3,7 +3,7 @@
  * Copyright (c) 2019 True web artisans https://1wa.co
  * http://opensource.org/licenses/MIT The MIT License (MIT)
  *
- * a2hs.js v0.4.4 at 11/05/2019
+ * a2hs.js v0.4.5 at 13/05/2019
  *
  * Add to Home Screen
  *
@@ -12,11 +12,11 @@
  * iOS device.
  *
  * @param settings Initial settings.
- * @return {object} A new AddToHomeScreen object.
+ * @return {HTMLElement}
  *
  * @example
  * import AddToHomeScreen from "a2hs.js";
- * new AddToHomeScreen({
+ * AddToHomeScreen({
  *  brandName: "Demo",
  *  fontFamily: "Tahoma, sans-serif",
  *  backgroundColor: "red",
@@ -100,8 +100,6 @@ var AddToHomeScreen = function(settings = {}) {
     document.head.appendChild(style);
     document.body.appendChild(div);
   }
-
-  return AddToHomeScreen;
 };
 
 module.exports = AddToHomeScreen;

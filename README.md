@@ -7,7 +7,7 @@
 
 <p align="center">
   <img src="https://badge.fury.io/js/a2hs.js.svg" alt="npm version"/>
-  <img src="https://img.shields.io/badge/minified_and_gzipped-1.3_KB-blue.svg" alt="bundle size"/>
+  <img src="https://img.shields.io/badge/minified_and_gzipped-1.29_KB-blue.svg" alt="bundle size"/>
   <img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat" alt="code style: prettier"/>
   <img src="https://img.shields.io/badge/license-MIT-yellow.svg?style=flat" alt="license"/>
   <a href="https://twitter.com/intent/tweet?text=Wow%20%F0%9F%91%8D%20Useful%20%23js%20solution%20for%20add%20progressive%20web%20application%20%23PWA%20to%20Home%20Screen%20on%20%23iOS:%20&url=https%3A%2F%2Fgithub.com%2Fkoddr%2Fa2hs.js" target="_blank">
@@ -180,16 +180,16 @@ Go to `private mode` on your iOS Safari and open [True web artisans](https://1wa
 ```console
 foo@bar:~$ npm run size
 
-  ✨ Built in 297ms.
+  ✨ Built in 234ms.
 
-  dist/index.js.map    5.74 KB     8ms
-  dist/index.js        3.73 KB    13ms
+  dist/index.js.map    5.68 KB     5ms
+  dist/index.js        3.72 KB    13ms
 
   Time limit:   50 ms
-  Package size: 1.3 KB with all dependencies, minified and gzipped
-  Loading time: 26 ms  on slow 3G
-  Running time: 23 ms  on Snapdragon 410
-  Total time:   49 ms
+  Package size: 1.29 KB with all dependencies, minified and gzipped
+  Loading time: 26 ms   on slow 3G
+  Running time: 21 ms   on Snapdragon 410
+  Total time:   47 ms
 ```
 _Thanks to Andrey Sitnik [@ai/size-limit](https://github.com/ai/size-limit)._
 
