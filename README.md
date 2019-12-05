@@ -203,11 +203,7 @@ If you want to say «thank you» or/and support active development `a2hs.js`:
 
 1. Add a GitHub Star to project.
 2. Twit about project [on your Twitter](https://twitter.com/intent/tweet?text=Wow%20%F0%9F%91%8D%20Useful%20%23js%20solution%20for%20add%20progressive%20web%20application%20%23PWA%20to%20Home%20Screen%20on%20%23iOS:%20&url=https%3A%2F%2Fgithub.com%2Fkoddr%2Fa2hs.js).
-3. Help project with some money, become a Patron:
-
-<a href="https://www.patreon.com/bePatron?u=20124951">
-  <img width="200px" src="https://c5.patreon.com/external/logo/become_a_patron_button@2x.png" alt="Become a Patron!"/>
-</a>
+3. If you want, send to project's author some money via PayPal: [@paypal.me/koddr](https://paypal.me/koddr?locale.x=en_EN).
 
 ## License
 
