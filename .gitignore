@@ -5,7 +5,7 @@ node_modules/
 npm-debug.log
 yarn-error.log
 
-.cache/
+.parcel-cache/
 dist/
 test/demo/.cache/
 test/demo/dist/

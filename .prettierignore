@@ -1,6 +1,6 @@
 .editorconfig
 .gitignore
 .prettierignore
-**/.cache
+**/.parcel-cache
 **/dist
 *.md

@@ -1,9 +1,8 @@
 /**
- * Vic Shóstak <truewebartisans@gmail.com>
- * Copyright (c) 2019 True web artisans https://1wa.co
+ * Copyright (c) 2021 Vic Shóstak <vic@shostak.dev> (https://shostak.dev)
  * http://opensource.org/licenses/MIT The MIT License (MIT)
  *
- * a2hs.js v0.4.5 at 13/05/2019
+ * a2hs.js v0.5.0 at 06/09/2021
  *
  * Add to Home Screen
  *
@@ -23,7 +22,7 @@
  *  color: "white"
  * });
  */
-var AddToHomeScreen = function(settings = {}) {
+var AddToHomeScreen = function (settings = {}) {
   // Container styles
   var backgroundColor = settings.backgroundColor || "#f9f9f9";
   var padding = settings.padding || "10px";
@@ -88,7 +87,7 @@ var AddToHomeScreen = function(settings = {}) {
     // Add class to container
     div.setAttribute("class", "a2hs__container");
     // Add onClick function
-    div.onclick = function(event) {
+    div.onclick = function (event) {
       // Prevent default click
       event.preventDefault();
       // Hide a2hs_message

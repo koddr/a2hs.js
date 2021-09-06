@@ -1,12 +1,13 @@
 {
   "name": "a2hs.js",
-  "version": "0.4.5",
+  "version": "0.5.0",
   "description": "A useful modern JavaScript solution that helps your website users to add (install) a progressive web application (PWA) to the Home screen of their mobile iOS device.",
   "browserslist": [
     "last 4 iOS major versions"
   ],
   "scripts": {
     "start": "parcel serve --cache-dir test/demo/.cache -d test/demo/dist test/demo/index.html --open",
+    "update": "npm outdated && npx npm-check-updates -u && npm install",
     "build": "parcel build ./index.js",
     "test": "jest --coverage && size-limit",
     "size": "npm run build && size-limit"
@@ -24,27 +25,26 @@
     "ios progressive web app",
     "ios pwa"
   ],
-  "author": "Vic Shóstak <truewebartisans@gmail.com> (https://1wa.co)",
+  "author": "Vic Shóstak <vic@shostak.dev> (https://shostak.dev/)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/koddr/a2hs.js/issues",
-    "email": "truewebartisans@gmail.com"
+    "email": "vic@shostak.dev"
   },
   "homepage": "https://github.io/koddr/a2hs.js",
   "devDependencies": {
-    "eslint": "^5.16.0",
-    "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-es5": "^1.3.1",
-    "eslint-plugin-import": "^2.17.2",
-    "eslint-plugin-import-helpers": "^1.0.2",
-    "eslint-plugin-jest": "^23.18.0",
-    "eslint-plugin-node": "^9.0.1",
-    "eslint-plugin-prefer-let": "^1.0.1",
-    "eslint-plugin-promise": "^4.1.1",
+    "eslint": "^7.32.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-es5": "^1.5.0",
+    "eslint-plugin-import": "^2.24.2",
+    "eslint-plugin-import-helpers": "^1.1.0",
+    "eslint-plugin-jest": "^24.4.0",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prefer-let": "^1.1.0",
+    "eslint-plugin-promise": "^5.1.0",
     "eslint-plugin-security": "^1.4.0",
-    "eslint-plugin-standard": "^4.0.0",
-    "jest": "^26.1.0",
-    "parcel-bundler": "^1.12.3"
+    "jest": "^27.1.0",
+    "parcel": "^2.0.0-rc.0"
   },
   "eslintConfig": {
     "rules": {
@@ -72,5 +72,6 @@
       "path": "index.js",
       "limit": "50 ms"
     }
-  ]
+  ],
+  "dependencies": {}
 }
