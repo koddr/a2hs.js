@@ -28,7 +28,7 @@ Also, it's **lightweight**, **production-ready**, **zero-configuration**, has **
 ## Install
 
 ```console
-foo@bar:~$ npm install --save a2hs.js
+npm install --save a2hs.js
 ```
 
 ## Usage
@@ -98,9 +98,9 @@ AddToHomeScreen({
 ### Demo on `localhost`
 
 ```console
-foo@bar:~$ git clone https://github.com/koddr/a2hs.js.git && cd a2hs.js
-foo@bar:a2hs.js$ npm install
-foo@bar:a2hs.js$ npm start
+git clone https://github.com/koddr/a2hs.js.git && cd a2hs.js
+npm install
+npm start
 
   Server running at http://localhost:1234 
   ✨  Built in 18ms.
@@ -178,7 +178,7 @@ Go to `private mode` on your iOS Safari and open [True web artisans](https://1wa
 ## Size limit report
 
 ```console
-foo@bar:~$ npm run size
+npm run size
 
   ✨ Built in 234ms.
 
