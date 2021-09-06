@@ -16,7 +16,7 @@
 </p>
 
 <p align="center">
-    A useful modern JavaScript solution that helps your website users to add (install) a <b>progressive web application</b> (PWA) to the <b>Home Screen</b> of their mobile <b>iOS</b> devices. Designed for the <b>latest 4 major versions</b> of iOS Safari 9.x-12.2+.
+    A useful modern JavaScript solution that helps your website users to add (install) a <b>progressive web application</b> (PWA) to the <b>Home Screen</b> of their mobile <b>iOS</b> devices. Designed for the <b>latest 4 major versions</b> of iOS Safari.
 </p>
 
 ## The Why?
@@ -98,7 +98,9 @@ AddToHomeScreen({
 ### Demo on `localhost`
 
 ```console
-git clone https://github.com/koddr/a2hs.js.git && cd a2hs.js
+git clone https://github.com/koddr/a2hs.js.git
+cd a2hs.js
+
 npm install
 npm start
 
