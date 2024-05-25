@@ -114,10 +114,6 @@ npm start
 2. Switch to `Device toolbar` and choose `iPhone` in `Emulated Devices` select;
 3. **↺ Refresh page**;
 
-### Live demo
-
-Go to `private mode` on your iOS Safari and open [True web artisans](https://1wa.co/) website.
-
 ## Animation
 
 ```css
